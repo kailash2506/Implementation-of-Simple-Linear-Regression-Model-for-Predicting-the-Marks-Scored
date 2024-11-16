@@ -8,10 +8,13 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Gather data consisting of two variables. Input- a factor that affects the marks and Output - the marks scored by students
+2. Plot the data points on a graph where x-axis represents the input variable and y-axis represents the marks scored
+3. Define and initialize the parameters for regression model: slope controls the steepness and intercept represents where the line crsses the y-axis
+4. Use the linear equation to predict marks based on the input Predicted Marks = m.(hours studied) + b
+5. for each data point calculate the difference between the actual and predicted marks
+6. Adjust the values of m and b to reduce the overall error. The gradient descent algorithm helps update these parameters based on the calculated error
+7. Once the model parameters are optimized, use the final equation to predict marks for any new input data
 
 ## Program:
 
